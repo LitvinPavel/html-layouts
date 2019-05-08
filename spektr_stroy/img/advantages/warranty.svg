@@ -1,0 +1,25 @@
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26px"
+	 height="32px" viewBox="0 0 26 32" style="enable-background:new 0 0 26 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#333333;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<defs>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+  <stop offset="0%" stop-color="rgb(233,90,0)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(247,125,18)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<rect x="1" y="1" class="st0" width="24" height="30"/>
+<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+ d="M5.420,12.089 L12.926,19.841 L22.104,5.896 L22.101,10.746 L13.343,23.719 L5.420,16.169 L5.420,12.089 Z"/>
+<path stroke-width="2px" stroke="rgb(255, 255, 255)" fill="url(#PSgrad_0)"
+ d="M5.420,12.089 L12.926,19.841 L22.104,5.896 L22.101,10.746 L13.343,23.719 L5.420,16.169 L5.420,12.089 Z"/>
+<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+ d="M4.140,4.859 L20.273,4.859 L20.273,6.981 L4.140,6.981 L4.140,4.859 Z"/>
+<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+ d="M4.140,4.555 L20.273,4.555 L20.273,6.677 L4.140,6.677 L4.140,4.555 Z"/>
+<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+ d="M4.140,4.250 L20.273,4.250 L20.273,6.372 L4.140,6.372 L4.140,4.250 Z"/>
+</svg>

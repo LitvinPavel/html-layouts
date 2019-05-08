@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url('./fonts/ProximaNova-Light.eot');
+  src: url('./fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/ProximaNova-Light.woff') format('woff'),
+  url('./fonts/ProximaNova-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+  @font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('./fonts/ProximaNova-Bold.eot');
+    src: url('./fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/ProximaNova-Bold.woff') format('woff'),
+    url('./fonts/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+html, body {
+  font-family: 'Proxima Nova Light';
+}
+h1 {
+  font-family: 'Proxima Nova Bold';
+}
+.c_orange {
+  color: rgb(255, 100, 0);
+}
+.bold {
+  font-weight: bold;
+}
+.light {
+  font-weight: 200;
+}
+
+.header_bg {
+  background-image: -moz-linear-gradient( 90deg, rgb(233,84,12) 0%, rgb(247,125,18) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(233,84,12) 0%, rgb(247,125,18) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(233,84,12) 0%, rgb(247,125,18) 100%);
+}
+
+.description {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  line-height: 1;
+  padding: 15px 0 0 15px;
+  text-align: left;
+}
+
+.vert_separate {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.31;
+  box-shadow: 0px 1px 0px 0px rgba(250, 152, 98, 0.91);
+  width: 1px;
+  height: 24px;
+  margin-top: 15px;
+}
+
+.horis_separate {
+  background-color: rgb(0, 0, 0);
+  width: 38px;
+  height: 2px;
+}
+
+._btn-lg {
+  background-image: -moz-linear-gradient( 90deg, rgb(233,90,0) 0%, rgb(247,125,18) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(233,90,0) 0%, rgb(247,125,18) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(233,90,0) 0%, rgb(247,125,18) 100%);
+  width: 264px;
+  height: 66px;
+  display: inline-block;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  overflow: hidden;
+}
+
+._btn-lg:before {
+    content:'';
+    position: absolute;
+    right: -38px;
+    top: -22%;
+    background: #fff;
+    width: 44px;
+    height: 66px;
+    margin-top: -20px;
+    transform: rotate(60deg);
+}
+._btn-lg:after {
+  content:'';
+    position: absolute;
+    right: -38px;
+    top: 22%;
+    background: #fff;
+    width: 44px;
+    height: 66px;
+    margin-top: 20px;
+    transform: rotate(-60deg);
+}
+
+._fon {
+  background: url('./img/fon.png') no-repeat, #d1d1d1;
+  background-size: cover;
+  width: 100%;
+}
+
+
+.horis_separate_orange {
+  background-image: -moz-linear-gradient( 90deg, rgb(233,84,12) 0%, rgb(247,125,18) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(233,84,12) 0%, rgb(247,125,18) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(233,84,12) 0%, rgb(247,125,18) 100%);
+  width: 38px;
+  height: 3px;
+}
+
+.lider_block {
+  background: rgba(130,130,130,1);
+background: -moz-linear-gradient(top, rgba(130,130,130,1) 0%, rgba(130,130,130,1) 70%, rgba(66,66,66,1) 98%, rgba(66,66,66,1) 99%, rgba(66,66,66,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(130,130,130,1)), color-stop(70%, rgba(130,130,130,1)), color-stop(98%, rgba(66,66,66,1)), color-stop(99%, rgba(66,66,66,1)), color-stop(100%, rgba(66,66,66,1)));
+background: -webkit-linear-gradient(top, rgba(130,130,130,1) 0%, rgba(130,130,130,1) 70%, rgba(66,66,66,1) 98%, rgba(66,66,66,1) 99%, rgba(66,66,66,1) 100%);
+background: -o-linear-gradient(top, rgba(130,130,130,1) 0%, rgba(130,130,130,1) 70%, rgba(66,66,66,1) 98%, rgba(66,66,66,1) 99%, rgba(66,66,66,1) 100%);
+background: -ms-linear-gradient(top, rgba(130,130,130,1) 0%, rgba(130,130,130,1) 70%, rgba(66,66,66,1) 98%, rgba(66,66,66,1) 99%, rgba(66,66,66,1) 100%);
+background: linear-gradient(to bottom, rgba(130,130,130,1) 0%, rgba(130,130,130,1) 70%, rgba(66,66,66,1) 98%, rgba(66,66,66,1) 99%, rgba(66,66,66,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#828282', endColorstr='#424242', GradientType=0 );
+  height: 300px;
+  border-radius: 0;
+  border: none;
+}
+.lider_block_footer {
+  border: none;
+}
+
+.footer_bg {
+  background-image: -moz-linear-gradient( 90deg, rgb(48,48,48) 0%, rgb(66,66,66) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(48,48,48) 0%, rgb(66,66,66) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(48,48,48) 0%, rgb(66,66,66) 100%);
+}
+
+
