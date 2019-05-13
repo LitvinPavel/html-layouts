@@ -16,10 +16,11 @@
 
 html,
 body {
-    font-family: 'Proxima Nova Light';
+  font-family: 'Proxima Nova Light';
+  font-size: 14px;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Proxima Nova Bold';
 }
 
@@ -108,6 +109,12 @@ h1 {
     width: 100%;
 }
 
+._fon_product {
+  background: url('./img/product_sub_fotter_bg.png') no-repeat, #d1d1d1;
+  background-size: cover;
+  width: 100%;
+}
+
 .horis_separate_orange {
     background-image: -moz-linear-gradient( 90deg, rgb(233, 84, 12) 0%, rgb(247, 125, 18) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(233, 84, 12) 0%, rgb(247, 125, 18) 100%);
@@ -142,4 +149,49 @@ h1 {
 
 .list_none li {
     list-style: none;
+}
+
+@media (min-width: 768px) {
+  .fix_height {
+    min-height: 400px;
+  }
+}
+
+.drop_menu {
+  background: #616060;
+  border: none;
+  border-radius: 0;
+}
+.drop_menu:after {
+  content: '';
+  position: absolute;
+  right: 60%;
+  top: 20px;
+  background: #616060;
+  width: 23px;
+  height: 10px;
+  margin-top: -20px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.drop_menu_item:hover {
+  background: #f37211;
+}
+
+.hr {
+  border-top: 1px inset rgba(0,0,0,.1);
+  border-bottom: 1px inset rgba(255,255,255,.1);
+  
+}
+
+.Polygon_2_copy_3 {
+  background-image: -moz-linear-gradient( 90deg, rgb(132,120,114) 67%, rgb(132,120,114) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(132,120,114) 67%, rgb(132,120,114) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(132,120,114) 67%, rgb(132,120,114) 100%);
+  position: absolute;
+  left: 1004px;
+  top: 125px;
+  width: 23px;
+  height: 10px;
+  z-index: 35;
 }
