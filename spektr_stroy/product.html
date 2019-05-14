@@ -16,6 +16,34 @@
         .breadcrumb-item+.breadcrumb-item::before {
             content: ">";
         }
+        .dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+
+
+
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
     </style>
 </head>
 
@@ -66,7 +94,114 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
+                        <ul class="navbar-nav ml-auto d-md-none">
+                            <div class="accordion pl-3" id="accordionExample">
+                                <div class="my-3">
+                                    <div id="headingOne">
+                                        <div id="btncollapseOne" class="d-flex justify-content-between" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <div><img src="./img/catalog/fibra.svg" width="24" alt=""> <span class="pl-3">Фибра</span></div>
+                                            <span><i class="fas fa-caret-right"></i></span>
+                                        </div>
+        
+                                    </div>
+        
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                      <ul class="list-unstyled ml-5 text-muted">
+                                        <li>противоморозные добавки</li>
+                                        <li>пластификаторы бетона</li>
+                                        <li>пигменты</li>
+                                      </ul>
+                                    </div>
+                                </div>
+                                <div class="my-3">
+                                    <div id="headingTwo">
+                                        <div id="btncollapseTwo" class="d-flex justify-content-between" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <div><img src="./img/catalog/add_to_beton.svg" width="24" alt=""> <span class="pl-3">Добавки в бетон</span></div>
+                                            <span><i class="fas fa-caret-right"></i></span>
+                                        </div>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                      <ul class="list-unstyled ml-5 text-muted">
+                                        <li>противоморозные добавки</li>
+                                        <li>пластификаторы бетона</li>
+                                        <li>пигменты</li>
+                                      </ul>
+                                    </div>
+                                </div>
+                                <div class="my-3">
+                                    <div id="headingTree">
+                                        <div id="btncollapseThree" class="d-flex justify-content-between" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <div><img src="./img/catalog/obrabotka_poverhnostej.svg" width="24" alt=""> <span class="pl-3">Обработка поверхностей</span></div>
+                                            <span><i class="fas fa-caret-right"></i></span>
+                                        </div>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                      <ul class="list-unstyled ml-5 text-muted">
+                                        <li>противоморозные добавки</li>
+                                        <li>пластификаторы бетона</li>
+                                        <li>пигменты</li>
+                                      </ul>
+                                    </div>
+                                </div>
+                                <div class="my-3">
+                                  <div id="headingFour">
+                                      <div id="btncollapseFour" class="d-flex justify-content-between" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                          <div><img src="./img/catalog/kamen.svg" width="24" alt=""> <span class="pl-3">Камень</span></div>
+                                          <span><i class="fas fa-caret-right"></i></span>
+                                      </div>
+                                  </div>
+                                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                    <ul class="list-unstyled ml-5 text-muted">
+                                      <li>противоморозные добавки</li>
+                                      <li>пластификаторы бетона</li>
+                                      <li>пигменты</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="my-3">
+                                  <div id="headingFive">
+                                      <div id="btncollapseFive" class="d-flex justify-content-between" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                          <div><img src="./img/catalog/syhie_smesi.svg" width="24" alt=""> <span class="pl-3">Сухие смеси</span></div>
+                                          <span><i class="fas fa-caret-right"></i></span>
+                                      </div>
+                                  </div>
+                                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                    <ul class="list-unstyled ml-5 text-muted">
+                                      <li>противоморозные добавки</li>
+                                      <li>пластификаторы бетона</li>
+                                      <li>пигменты</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="my-3">
+                                  <div id="headingSix">
+                                      <div id="btncollapseSix" class="d-flex justify-content-between" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                          <div><img src="./img/catalog/beton_work.svg" width="24" alt=""> <span class="pl-3">Для работы с бетоном</span></div>
+                                          <span><i class="fas fa-caret-right"></i></span>
+                                      </div>
+                                  </div>
+                                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                    <ul class="list-unstyled ml-5 text-muted">
+                                      <li>противоморозные добавки</li>
+                                      <li>пластификаторы бетона</li>
+                                      <li>пигменты</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                            </div>
+                            <!-- <li class="nav-item active">
+                                <a class="nav-link" href="#">О компании <span class="sr-only">(current)</span></a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Доставка</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Офисы и контакты</a>
+                            </li> -->
+                        </ul>
+
+                        <ul class="navbar-nav ml-auto d-none d-md-flex">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">О компании <span class="sr-only">(current)</span></a>
                             </li>
@@ -74,37 +209,67 @@
                                 <a class="nav-link dropdown-toggle" href="product.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Продукция
                         </a>
-                                <div class="dropdown-menu py-0 mt-5 drop_menu" style="margin-left: -25px;" aria-labelledby="navbarDropdown">
-                                    <a href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-2 text-white">
-                                      <div><img src="./img/catalog/fibra.svg" width="24" alt=""> <span class="pl-3">Фибра</span></div>
-                                      <span class="ml-3"><i class="fas fa-caret-right"></i></span>
-                                    </a>
-                                    <hr class="my-0 mx-2 hr">
-                                <a href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-2">
-                                  <div><img src="./img/catalog/add_to_beton.svg" width="24" alt=""> <span class="pl-3">Добавки в бетон</span></div>
-                                  <span class="ml-3"><i class="fas fa-caret-right"></i></span>
-                                </a>
-                                <hr class="my-0 mx-2 hr">
-                                <a href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-2">
-                                  <div><img src="./img/catalog/obrabotka_poverhnostej.svg" width="24" alt=""> <span class="pl-3">Обработка поверхностей</span></div>
-                                  <span class="ml-3"><i class="fas fa-caret-right"></i></span>
-                                </a>
-                                <hr class="my-0 mx-2 hr">
-                                <a href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-2">
-                                  <div><img src="./img/catalog/beton_work.svg" width="24" alt=""> <span class="pl-3">Для работы с бетоном</span></div>
-                                  <span class="ml-3"><i class="fas fa-caret-right"></i></span>
-                                </a>
-                                <hr class="my-0 mx-2 hr">
-                                <a href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-2">
-                                  <div><img src="./img/catalog/syhie_smesi.svg" width="24" alt=""> <span class="pl-3">Сухие смеси</span></div>
-                                  <span class="ml-3"><i class="fas fa-caret-right"></i></span>
-                                </a>
-                                <hr class="my-0 mx-2 hr">
-                                <a href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-2">
-                                  <div><img src="./img/catalog/kamen.svg" width="24" alt=""> <span class="pl-3">Камень</span></div>
-                                  <span class="ml-3"><i class="fas fa-caret-right"></i></span>
-                                </a>
-                                <hr class="my-0 mx-2 hr">
+                                <div class="dropdown-menu p-0 mt-5 drop_menu" style="margin-left: -25px;" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-submenu">
+                                          
+                                        <a tabindex="-1" href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-3 py-2">
+                                            <div><img src="./img/catalog/fibra.svg" width="24" alt=""> <span class="pl-3">Фибра</span></div>
+                                              <span class="ml-4"><i class="fas fa-caret-right"></i></span>
+                                        </a>
+                                        <ul class="dropdown-menu dropdown_sub_menu px-4 py-3">
+                                          <li><a class="text-white" href="#">Противоморозные добавки</a></li>
+                                          <hr class="m-0 hr">
+                                          <li><a class="text-white" href="#">Пластификаторы бетона</a></li>
+                                          <hr class="m-0 hr">
+                                          <li><a class="text-white" href="#">Модификаторы бетона</a></li>
+                                          <hr class="m-0 hr">
+                                          <li><a class="text-white" href="#">Гидроизоляционные добавки</a></li>
+                                          <hr class="m-0 hr">
+                                          <li><a class="text-white" href="#">Пигменты</a></li>
+                                        </ul>
+                                      </div>
+                                            <hr class="my-0 mx-2 hr">
+                                            <div class="dropdown-submenu">
+                                          
+                                                <a tabindex="-1" href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-3 py-2">
+                                                    <div><img src="./img/catalog/add_to_beton.svg" width="24" alt=""> <span class="pl-3">Добавки в бетон</span></div>
+                                          <span class="ml-4"><i class="fas fa-caret-right"></i></span>
+                                                </a>
+                                                <ul class="dropdown-menu dropdown_sub_menu px-4 py-3">
+                                                  <li><a class="text-white" href="#">Противоморозные добавки</a></li>
+                                                  <hr class="m-0 hr">
+                                                  <li><a class="text-white" href="#">Пластификаторы бетона</a></li>
+                                                  <hr class="m-0 hr">
+                                                  <li><a class="text-white" href="#">Модификаторы бетона</a></li>
+                                                  <hr class="m-0 hr">
+                                                  <li><a class="text-white" href="#">Гидроизоляционные добавки</a></li>
+                                                  <hr class="m-0 hr">
+                                                  <li><a class="text-white" href="#">Пигменты</a></li>
+                                                </ul>
+                                              </div>
+                                        <hr class="my-0 mx-2 hr">
+                                        <a href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-3 py-2">
+                                          <div><img src="./img/catalog/obrabotka_poverhnostej.svg" width="24" alt=""> <span class="pl-3">Обработка поверхностей</span></div>
+                                          <span class="ml-4"><i class="fas fa-caret-right"></i></span>
+                                        </a>
+                                        <hr class="my-0 mx-2 hr">
+                                        <a href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-3 py-2">
+                                          <div><img src="./img/catalog/beton_work.svg" width="24" alt=""> <span class="pl-3">Для работы с бетоном</span></div>
+                                          <span class="ml-4"><i class="fas fa-caret-right"></i></span>
+                                        </a>
+                                        <hr class="my-0 mx-2 hr">
+                                        <a href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-3 py-2">
+                                          <div><img src="./img/catalog/syhie_smesi.svg" width="24" alt=""> <span class="pl-3">Сухие смеси</span></div>
+                                          <span class="ml-4"><i class="fas fa-caret-right"></i></span>
+                                        </a>
+                                        <hr class="my-0 mx-2 hr">
+                                        <a href="#" class="dropdown-item drop_menu_item d-flex justify-content-between pr-3 py-2">
+                                          <div><img src="./img/catalog/kamen.svg" width="24" alt=""> <span class="pl-3">Камень</span></div>
+                                          <span class="ml-4"><i class="fas fa-caret-right"></i></span>
+                                        </a>
+                                        <hr class="my-0 mx-2 hr">
+                                        
+                                    
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -338,6 +503,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="./js/side-bar.js"></script>
+    <script>
+      // $(document).ready(() => {
+      //   $('.drop_menu_item').hover(() => {
+      //     let menuHeight = document.querySelector('.drop_menu').offsetHeight
+      //     $('.dropdown_sub_menu').css('min-height', `${menuHeight}px`)
+      //   })
+      // })
+      
+    </script>
 </body>
 
 </html>

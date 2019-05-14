@@ -165,12 +165,12 @@ h1, h2 {
 .drop_menu:after {
   content: '';
   position: absolute;
-  right: 60%;
+  right: 70%;
   top: 20px;
   background: #616060;
   width: 23px;
-  height: 10px;
-  margin-top: -20px;
+  height: 23px;
+  margin-top: -25px;
   transform: rotate(45deg);
   z-index: -1;
 }
@@ -183,15 +183,12 @@ h1, h2 {
   border-bottom: 1px inset rgba(255,255,255,.1);
   
 }
+.dropdown_menu_wrapp {
+  position: relative;
+}
 
-.Polygon_2_copy_3 {
-  background-image: -moz-linear-gradient( 90deg, rgb(132,120,114) 67%, rgb(132,120,114) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(132,120,114) 67%, rgb(132,120,114) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(132,120,114) 67%, rgb(132,120,114) 100%);
-  position: absolute;
-  left: 1004px;
-  top: 125px;
-  width: 23px;
-  height: 10px;
-  z-index: 35;
+.dropdown_sub_menu {
+    background: #909090;
+    border: none;
+    border-radius: 0;
 }
